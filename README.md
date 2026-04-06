@@ -30,3 +30,10 @@ List down all the topics
  ./kafka-topics.sh --bootstrap-server broker:<PORT_NUMBER>
  
 ```
+
+Consume a Topic
+
+```
+./kafka-console-consumer.sh -- topic <topic_name> --from-beginning --bootstrap-server broker:29092
+
+```
