@@ -22,3 +22,11 @@ Create Topic using Shell
  ./kafka-topics.sh --create --topic <topic_name> --bootstrap-server broker:<PORT_NUMBER>
  
 ```
+
+List down all the topics
+
+
+```
+ ./kafka-topics.sh --bootstrap-server broker:<PORT_NUMBER>
+ 
+```
