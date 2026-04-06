@@ -37,3 +37,10 @@ Consume a Topic
 ./kafka-console-consumer.sh --topic <topic_name> --from-beginning --bootstrap-server broker:29092
 
 ```
+
+Produce a Topic
+
+```
+./kafka-console-producer.sh --topic <topic-name> --bootstrap-server broker:29092
+
+```
