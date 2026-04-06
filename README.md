@@ -34,6 +34,6 @@ List down all the topics
 Consume a Topic
 
 ```
-./kafka-console-consumer.sh -- topic <topic_name> --from-beginning --bootstrap-server broker:29092
+./kafka-console-consumer.sh --topic <topic_name> --from-beginning --bootstrap-server broker:29092
 
 ```
